@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "ds115411.mlab.com",
+    "port": 15411,
+    "database": "angular_2_training_tecnologico",
+    "password": "usertest",
+    "name": "mongo",
+    "user": "Angular2UserTest",
+    "connector": "mongodb"
+  }
+}

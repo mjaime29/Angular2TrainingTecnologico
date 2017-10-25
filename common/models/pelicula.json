@@ -1,0 +1,51 @@
+{
+  "name": "Pelicula",
+  "plural": "peliculas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "sinopsis": {
+      "type": "string",
+      "required": true
+    },
+    "duracion": {
+      "type": "number",
+      "required": true
+    },
+    "genero": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "type": "string",
+      "required": true
+    },
+    "megusta": {
+      "type": "number",
+      "required": true
+    },
+    "nomegusta": {
+      "type": "number",
+      "required": true
+    },
+    "horarios": {
+      "type": "string",
+      "required": true
+    },
+    "sala": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
