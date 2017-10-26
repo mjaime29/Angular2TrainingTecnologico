@@ -44,5 +44,9 @@
   "Pelicula": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Comentario": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

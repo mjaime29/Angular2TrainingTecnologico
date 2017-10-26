@@ -6,6 +6,9 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "TimeStamp": true
+  },
   "properties": {
     "nombre": {
       "type": "string",
@@ -45,7 +48,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "comentarios": {
+      "type": "hasMany",
+      "model": "Comentario",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
